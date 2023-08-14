@@ -1,0 +1,94 @@
+/* Importação da fonte*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+/* Todos os estilos dentro da página*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppings", sans-serif;
+}
+
+/* Estilização do corpo do esqueleto (tudo dentro do body)*/
+body {
+    background-color: rgb(148, 1, 148);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+/* Estilização da tag "canvas" */
+canvas {
+    background-color: #111;
+}
+
+/* Estilização do score*/
+.score {
+    color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+/* Estilização do score--value (os numeors 00 do começo)*/
+.score--value {
+    color: #111;
+    font-weight: 700;
+    font-size: 4.5rem;
+    display: block;
+    margin-top: -10px;
+}
+
+/* estilizaç]ao da dvi "menu-screen" */
+.menu-screen {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1;
+}
+
+/* Estilização do "game-over" */
+.game-over {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+/* Estilizaão do final-score*/
+.final-score {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+/* Estilização do botão de "jogar novamente" */
+.btn-play {
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px 10px 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    cursor: pointer;
+    transition: 1ms ease;
+    -webkit-transition: 1ms ease;
+    -moz-transition: 1ms ease;
+    -ms-transition: 1ms ease;
+    -o-transition: 1ms ease;
+}
+
+/* Estilização do efeito noo icon do botão*/
+.btn-play :hover{
+   transition: 1ms;
+   color: aqua;
+}
+   

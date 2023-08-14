@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> <!-- Começo da cabeça do html -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Essa é um framework do css, ajudando na estilização -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- Já esse é o style css linkado -->
+    <link rel="stylesheet" href="./cobra.css">
+    <!-- Essa é a parte que aparece lá em cima do site -->
+    <title>Snake Game</title>
+</head> <!-- Fim do html -->
+<body> <!-- corpo do html -->
+
+    <!-- Essa div corresponde a palavra "score" e os números "00"-->
+    <div class="score">score: <span class="score--value">00</span></div>
+    <!-- Essa div corresponde as palavras de "game-over", "score" e "00"-->
+    <div class="menu-screen">
+        <span class="game-over">game over</span>
+        <span class="final-score">score <span>00</span></span>
+    <!-- Esse é um botão com simbolo de play.-->
+        <button class="btn-play">
+            <span class="material-symbols-outlined">
+                play_circle
+            </span>
+      <!--Essa parte também é do botão, porem naparte onde está escrito "jogar novamente"-->      
+            Jogar novamente
+        </button>
+    </div> <!-- Fim da div "menu-screen" -->
+    <canvas width="600" height="600"></canvas> <!-- Tag do html -->
+    <!-- javascrip linkado usando a tag "<script></script>"-->
+    <script src="./cobra.js"></script>
+</body> <!-- Fim do corpo do html -->
+</html> <!-- Fim do html -->
